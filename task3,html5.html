@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3,html5.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <audio controls id="AnAudio"> 
+<source src="sound.mp3"></source>
+    </audio>
+    <button onclick="play()">play</button>
+    <button onclick="pause()">pause</button>
+    <br>
+    <video controls id="Anvideo"> 
+        <source src="video.mp4"></source>
+    </video>
+            <button onclick="playVideo()">play</button>
+            <button onclick="pauseVideo()">pause</button>
+    <script>
+        function play(){
+            var audio=document.getElementById("AnAudio");
+            audio.play();
+        }
+        function pause(){
+            var audio=document.getElementById("AnAudio");
+            audio.pause();
+        }
+        function playVideo(){
+            var video=document.getElementById("Anvideo");
+            video.play();
+        }
+        function pauseVideo(){
+            var video=document.getElementById("Anvideo");
+            video.pause();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#input6{
+background-color: darkseagreen;
+float: right;
+border-radius: 50px;
+
+}
+div{
+    width: 175px;
+    margin: auto;
+}
+#input4{
+    display: inline;
+}
+output{
+    display: inline;
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ul{
+     list-style: none;
+     
+ }
+ li{
+     display: inline;
+     
+ }
+ header{
+     background-color: blueviolet;
+     height: 20vh;
+ }
+ header nav{
+     display:inline-block;
+     float:right;
+    
+ }
+
+ aside{
+     background-color: chartreuse;
+     width: 30%;
+     height: 60vh;
+     float: left;
+ }
+ 
+ section{
+     background-color: red;
+     width:70%;
+     height:60vh ;
+     float:right;
+ }
+
+ footer{
+     background-color: aqua;
+     clear:both;
+     height: 20vh;
+ }
+ article{
+    background-color: rgba(255, 255, 0, 0.678);
+    height: 30vh;
+}
